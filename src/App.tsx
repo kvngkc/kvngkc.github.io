@@ -4,7 +4,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Services from './components/Services'
 import Footer from './components/Footer'
-import ScorecardApp from './components/scorecard/ScorecardApp'
+import ScorecardApp from './Victor Linkedin/ScorecardApp'
 
 function PortfolioApp() {
   return (
