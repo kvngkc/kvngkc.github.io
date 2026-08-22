@@ -16,11 +16,11 @@ export default function Services() {
             <div className="mb-4 text-gray-500 font-mono text-sm">Step 01</div>
             <h3 className="text-xl font-bold text-white mb-2">The Playbook</h3>
             <p className="text-gray-400 text-sm mb-6 flex-grow">
-              Start diagnosing your own bottlenecks. Download my free framework for identifying where your business is bleeding time and how to patch it.
+              Start diagnosing your own bottlenecks. Take the interactive 5-minute health scorecard to identify where your business is bleeding time and how to patch it.
             </p>
-            <button className="w-full py-2 bg-card border border-border rounded text-sm font-medium hover:bg-gray-800 transition-colors text-gray-300">
-              Download Checklist
-            </button>
+            <a href="/scorecard.html" target="_blank" className="w-full block text-center py-2 bg-card border border-border rounded text-sm font-medium hover:bg-gray-800 transition-colors text-gray-300">
+              Take the Free Scorecard
+            </a>
           </div>
 
           {/* Step 2 */}
