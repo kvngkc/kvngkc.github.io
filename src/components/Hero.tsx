@@ -22,8 +22,8 @@ export default function Hero() {
           <span>Read the Manifesto</span>
           <ArrowRight size={18} />
         </a>
-        <a href="#systems" className="bg-card border border-border text-white px-6 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors flex items-center justify-center">
-          View the Systems
+        <a href="/scorecard" className="bg-card border border-border text-white px-6 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors flex items-center justify-center">
+          Take the Systems Assessment
         </a>
       </div>
     </section>

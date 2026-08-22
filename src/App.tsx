@@ -1,10 +1,12 @@
+import { useState, useEffect } from 'react'
 import Hero from './components/Hero'
 import About from './components/About'
 import Projects from './components/Projects'
 import Services from './components/Services'
 import Footer from './components/Footer'
+import ScorecardApp from './components/scorecard/ScorecardApp'
 
-function App() {
+function PortfolioApp() {
   return (
     <div className="min-h-screen bg-background text-foreground selection:bg-accent selection:text-black">
       <nav className="fixed top-0 w-full z-50 glass border-b border-border">
@@ -30,4 +32,18 @@ function App() {
   )
 }
 
-export default App
+export default function App() {
+  const [route, setRoute] = useState(window.location.pathname);
+
+  useEffect(() => {
+    const handlePopState = () => setRoute(window.location.pathname);
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  if (route === '/scorecard' || route === '/scorecard.html') {
+    return <ScorecardApp />;
+  }
+
+  return <PortfolioApp />;
+}

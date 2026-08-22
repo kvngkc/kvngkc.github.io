@@ -18,7 +18,7 @@ export default function Services() {
             <p className="text-gray-400 text-sm mb-6 flex-grow">
               Start diagnosing your own bottlenecks. Take the interactive 5-minute health scorecard to identify where your business is bleeding time and how to patch it.
             </p>
-            <a href="/scorecard.html" target="_blank" className="w-full block text-center py-2 bg-card border border-border rounded text-sm font-medium hover:bg-gray-800 transition-colors text-gray-300">
+            <a href="/scorecard" className="w-full block text-center py-2 bg-card border border-border rounded text-sm font-medium hover:bg-gray-800 transition-colors text-gray-300">
               Take the Free Scorecard
             </a>
           </div>
@@ -27,12 +27,12 @@ export default function Services() {
           <div className="bg-background border border-accent/20 p-6 rounded-xl flex flex-col h-full relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1 bg-accent"></div>
             <div className="mb-4 text-accent font-mono text-sm">Step 02</div>
-            <h3 className="text-xl font-bold text-white mb-2">Operations Audit</h3>
+            <h3 className="text-xl font-bold text-white mb-2">Operational Quickstart</h3>
             <p className="text-gray-400 text-sm mb-6 flex-grow">
-              A 60-minute deep dive into your workflows. We map how information, people, and money move through your business to find the high-ROI automation targets.
+              A fixed-scope, fast-turnaround intervention to automate one high-friction workflow and prove immediate ROI.
             </p>
             <button className="w-full py-2 bg-accent text-black rounded text-sm font-bold hover:bg-accent-hover transition-colors">
-              Book a Power Hour
+              Apply for Quickstart
             </button>
           </div>
 
@@ -40,7 +40,7 @@ export default function Services() {
           <div className="bg-background border border-border p-6 rounded-xl flex flex-col h-full relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1 bg-gray-600"></div>
             <div className="mb-4 text-gray-500 font-mono text-sm">Step 03</div>
-            <h3 className="text-xl font-bold text-white mb-2">Custom Build</h3>
+            <h3 className="text-xl font-bold text-white mb-2">Systems Implementation</h3>
             <p className="text-gray-400 text-sm mb-6 flex-grow">
               I architect, build, and deploy the custom software system or AI workflow designed precisely for how your business actually operates.
             </p>
